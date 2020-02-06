@@ -65,7 +65,7 @@ import {MatCardModule} from '@angular/material/card';
 
     Student1Component,
     Fees1Component,
-    School1Component
+    School1Component,
   ],
   imports: [
     BrowserModule,
