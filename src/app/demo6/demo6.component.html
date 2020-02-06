@@ -1,0 +1,48 @@
+<div class="container-fluid bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"> <img src="../../assets/img/logo.png" alt="second slide"
+                style="width: 75px;height: 73px;border-radius: 22px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/home">Home</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" routerLink="/attendence">Attendence</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Features
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" routerLink="/attendence">Attendence Management</a>
+                        <a class="dropdown-item"  routerLink="/student">Students Management</a>
+                        <a class="dropdown-item"  routerLink="/parent">Parent Management</a>
+                        <a class="dropdown-item" routerLink="/teacher">Teacher Management</a>
+                        <a class="dropdown-item" routerLink="/fees">Fees Management</a>
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/about">About Us</a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/contactus">Contact Us</a>
+                </li>
+            </ul>
+            <div *ngIf="hideLogReg()">
+                <button routerLink="/login1" class="btn btn-outline-primary " type="submit">Login</button>
+                <button routerLink="/login" class="btn btn-outline-success " type="submit">Regitser</button>
+            </div>
+
+        </div>
+    </nav>
+</div>

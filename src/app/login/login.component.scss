@@ -1,0 +1,82 @@
+
+/* You can add global styles to this file, and also import other style files */
+.main-content{
+
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("../../assets/img/schoool.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+}
+
+#ui{
+
+    background:rgba(0,0,0,0.3);
+    background-size: cover;
+    padding: 8px;
+    border-radius: 13px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 10px 12px 15px 10px  rgba(0,0,0,0.5);
+    color: black;
+    
+}
+
+#ui label{
+
+    color: white;
+    font-size: 17px;
+}
+
+
+form i{
+
+    padding: 12px;
+    color: black;
+    font-size: 2.3em;
+}
+
+
+form a i:hover{
+
+    color:#e35d5b;
+}
+
+
+
+.faf i{
+
+    padding: 12px;
+    }
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /** Button Styles **/
+  .dropdown button {
+    
+    color: gray;
+    border: none;
+    margin: 0;
+    padding: 0.4em 0.8em;
+    font-size: 1em;
+  }
+  
+  /** List Item Styles **/
+  .dropdown a {
+    display: inline-block;
+    padding: 11.4px -0.2px;
+    text-decoration: none;
+  
+    color: #333333;
+  }
+
+.error{
+    color: red;
+}
+
+
+
