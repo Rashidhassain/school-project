@@ -23,6 +23,7 @@ import { Login1Component } from './login1/login1.component';
 import { Student1Component } from './student1/student1.component';
 import { School1Component } from './school1/school1.component';
 import { Fees1Component } from './fees1/fees1.component';
+import { DbComponent } from './db/db.component';
 
 
 const routes: Routes = [
@@ -38,6 +39,7 @@ const routes: Routes = [
 {path: 'student1', component: Student1Component},
 {path: 'fees1', component: Fees1Component},
 {path: 'school1', component: School1Component},
+{path: 'db', component: DbComponent},
 
 {path: 'contactus', component: ContactusComponent},
 {path: 'about', component: AboutComponent},

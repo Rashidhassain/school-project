@@ -7,3 +7,13 @@
 
     overflow: hidden;
 }
+
+.card:hover{
+
+    transform:scale(1);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow:rgba(0,0,0,0.2) 1px 2px 6px 1px;
+    
+}
+

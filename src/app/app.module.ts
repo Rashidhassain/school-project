@@ -36,6 +36,7 @@ import { Student1Component } from './student1/student1.component';
 import { Fees1Component } from './fees1/fees1.component';
 import { School1Component } from './school1/school1.component';
 import {MatCardModule} from '@angular/material/card';
+import { DbComponent } from './db/db.component';
 
 
 @NgModule({
@@ -66,6 +67,7 @@ import {MatCardModule} from '@angular/material/card';
     Student1Component,
     Fees1Component,
     School1Component,
+    DbComponent,
   ],
   imports: [
     BrowserModule,
